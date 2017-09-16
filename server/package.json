@@ -4,8 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --config nodemon.json",
+    "build": "tsc --outDir dist"
   },
   "author": "arche galla",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "feathers": "^2.2.0",
+    "feathers-errors": "^2.9.2",
+    "feathers-memory": "^1.2.1",
+    "feathers-rest": "^1.8.0",
+    "feathers-socketio": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "typescript": "^2.5.2",
+    "ts-node": "^3.3.0"
+  }
 }
