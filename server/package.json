@@ -15,11 +15,14 @@
     "feathers-errors": "^2.9.2",
     "feathers-memory": "^1.2.1",
     "feathers-rest": "^1.8.0",
-    "feathers-socketio": "^2.0.0"
+    "feathers-socketio": "^2.0.0",
+    "serve-favicon": "^2.4.4"
   },
   "devDependencies": {
+    "feathers-nedb": "^2.7.0",
+    "nedb": "^1.8.0",
     "nodemon": "^1.12.1",
-    "typescript": "^2.5.2",
-    "ts-node": "^3.3.0"
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.2"
   }
 }
